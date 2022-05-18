@@ -8,10 +8,10 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "c:/Users/MLON/Documents/PlatformIO/Projects/220510-103432-espidf-storage-sdcard/include",
-                "c:/Users/MLON/Documents/PlatformIO/Projects/220510-103432-espidf-storage-sdcard/src",
+                "y:/espidf-i2c_eeprom_example/include",
+                "y:/espidf-i2c_eeprom_example/src",
                 "C:/Users/MLON/.platformio/packages/framework-espidf/components/esp_pm/include",
-                "C:/Users/MLON/Documents/PlatformIO/Projects/220510-103432-espidf-storage-sdcard/.pio/build/esp32dev/config",
+                "Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/config",
                 "C:/Users/MLON/.platformio/packages/framework-espidf/components/newlib/platform_include",
                 "C:/Users/MLON/.platformio/packages/framework-espidf/components/freertos/include",
                 "C:/Users/MLON/.platformio/packages/framework-espidf/components/freertos/port/xtensa/include",
@@ -116,17 +116,17 @@
                 "C:/Users/MLON/.platformio/packages/framework-espidf/components/spiffs/include",
                 "C:/Users/MLON/.platformio/packages/framework-espidf/components/ulp/include",
                 "C:/Users/MLON/.platformio/packages/framework-espidf/components/wifi_provisioning/include",
-                "C:/Users/MLON/Documents/PlatformIO/Projects/220510-103432-espidf-storage-sdcard/src",
+                "Y:/espidf-i2c_eeprom_example/src",
                 "C:/Users/MLON/.platformio/packages/tool-unity",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "c:/Users/MLON/Documents/PlatformIO/Projects/220510-103432-espidf-storage-sdcard/include",
-                    "c:/Users/MLON/Documents/PlatformIO/Projects/220510-103432-espidf-storage-sdcard/src",
+                    "y:/espidf-i2c_eeprom_example/include",
+                    "y:/espidf-i2c_eeprom_example/src",
                     "C:/Users/MLON/.platformio/packages/framework-espidf/components/esp_pm/include",
-                    "C:/Users/MLON/Documents/PlatformIO/Projects/220510-103432-espidf-storage-sdcard/.pio/build/esp32dev/config",
+                    "Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/config",
                     "C:/Users/MLON/.platformio/packages/framework-espidf/components/newlib/platform_include",
                     "C:/Users/MLON/.platformio/packages/framework-espidf/components/freertos/include",
                     "C:/Users/MLON/.platformio/packages/framework-espidf/components/freertos/port/xtensa/include",
@@ -231,7 +231,7 @@
                     "C:/Users/MLON/.platformio/packages/framework-espidf/components/spiffs/include",
                     "C:/Users/MLON/.platformio/packages/framework-espidf/components/ulp/include",
                     "C:/Users/MLON/.platformio/packages/framework-espidf/components/wifi_provisioning/include",
-                    "C:/Users/MLON/Documents/PlatformIO/Projects/220510-103432-espidf-storage-sdcard/src",
+                    "Y:/espidf-i2c_eeprom_example/src",
                     "C:/Users/MLON/.platformio/packages/tool-unity",
                     ""
                 ]

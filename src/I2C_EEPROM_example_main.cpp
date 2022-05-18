@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "driver/i2c.h"
 
-#define I2C_MASTER_SCL_IO           22		// I2C master SCK
-#define I2C_MASTER_SDA_IO           21      // I2C master SDA
-#define I2C_MASTER_NUM              0		// I2C module Number
+#define I2C_MASTER_SCL_IO			14		// I2C master SCK
+#define I2C_MASTER_SDA_IO			13		// I2C master SDA
+#define I2C_MASTER_NUM              1		// I2C module Number
 #define I2C_MASTER_FREQ_HZ          400000	// I2C master freq
 #define I2C_MASTER_TX_BUF_DISABLE   0		// I2C master doesn't need buffer
 #define I2C_MASTER_RX_BUF_DISABLE   0		// I2C master doesn't need buffer

@@ -1,4 +1,4 @@
-/* * Data converted from C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\x509_crt_bundle
+/* * Data converted from y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\x509_crt_bundle
  */
 .data
 .section .rodata.embedded

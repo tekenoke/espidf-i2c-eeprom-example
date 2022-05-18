@@ -93,7 +93,7 @@ build CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj: C_COMPILER__boo
 
 build bootloader.elf: C_EXECUTABLE_LINKER__bootloader.2eelf CMakeFiles/bootloader.elf.dir/project_elf_src_esp32.c.obj | esp-idf/hal/libhal.a esp-idf/soc/libsoc.a esp-idf/micro-ecc/libmicro-ecc.a esp-idf/spi_flash/libspi_flash.a esp-idf/bootloader_support/libbootloader_support.a esp-idf/efuse/libefuse.a esp-idf/esp_hw_support/libesp_hw_support.a esp-idf/esp_rom/libesp_rom.a esp-idf/log/liblog.a esp-idf/main/libmain.a esp-idf/hal/libhal.a esp-idf/soc/libsoc.a esp-idf/micro-ecc/libmicro-ecc.a esp-idf/spi_flash/libspi_flash.a esp-idf/bootloader_support/libbootloader_support.a esp-idf/efuse/libefuse.a esp-idf/esp_hw_support/libesp_hw_support.a esp-idf/esp_rom/libesp_rom.a esp-idf/log/liblog.a esp-idf/hal/libhal.a esp-idf/soc/libsoc.a esp-idf/micro-ecc/libmicro-ecc.a esp-idf/spi_flash/libspi_flash.a esp-idf/bootloader_support/libbootloader_support.a esp-idf/efuse/libefuse.a esp-idf/esp_hw_support/libesp_hw_support.a esp-idf/esp_rom/libesp_rom.a esp-idf/log/liblog.a C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/ld/esp32.peripherals.ld C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/esp32/ld/esp32.rom.ld C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/esp32/ld/esp32.rom.api.ld C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/main/ld/esp32/bootloader.ld C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld || _project_elf_src esp-idf/hal/libhal.a esp-idf/main/libmain.a
   FLAGS = -mlongcalls -Wno-frame-address
-  LINK_LIBRARIES = esp-idf/hal/libhal.a  esp-idf/soc/libsoc.a  esp-idf/micro-ecc/libmicro-ecc.a  esp-idf/spi_flash/libspi_flash.a  esp-idf/bootloader_support/libbootloader_support.a  esp-idf/efuse/libefuse.a  esp-idf/esp_hw_support/libesp_hw_support.a  esp-idf/esp_rom/libesp_rom.a  esp-idf/log/liblog.a  esp-idf/main/libmain.a  -Wl,--cref -Wl,--Map=C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.map  -fno-rtti  -fno-lto  esp-idf/hal/libhal.a  esp-idf/soc/libsoc.a  esp-idf/micro-ecc/libmicro-ecc.a  esp-idf/spi_flash/libspi_flash.a  esp-idf/bootloader_support/libbootloader_support.a  esp-idf/efuse/libefuse.a  esp-idf/esp_hw_support/libesp_hw_support.a  esp-idf/esp_rom/libesp_rom.a  esp-idf/log/liblog.a  esp-idf/hal/libhal.a  esp-idf/soc/libsoc.a  esp-idf/micro-ecc/libmicro-ecc.a  esp-idf/spi_flash/libspi_flash.a  esp-idf/bootloader_support/libbootloader_support.a  esp-idf/efuse/libefuse.a  esp-idf/esp_hw_support/libesp_hw_support.a  esp-idf/esp_rom/libesp_rom.a  esp-idf/log/liblog.a  -L C:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/ld  -T esp32.peripherals.ld  -u abort  -Wl,--gc-sections  -L C:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/esp32/ld  -T esp32.rom.ld  -T esp32.rom.api.ld  -T esp32.rom.libgcc.ld  -T esp32.rom.newlib-funcs.ld  -L C:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/main/ld/esp32  -T bootloader.ld  -T bootloader.rom.ld
+  LINK_LIBRARIES = esp-idf/hal/libhal.a  esp-idf/soc/libsoc.a  esp-idf/micro-ecc/libmicro-ecc.a  esp-idf/spi_flash/libspi_flash.a  esp-idf/bootloader_support/libbootloader_support.a  esp-idf/efuse/libefuse.a  esp-idf/esp_hw_support/libesp_hw_support.a  esp-idf/esp_rom/libesp_rom.a  esp-idf/log/liblog.a  esp-idf/main/libmain.a  -Wl,--cref -Wl,--Map=Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.map  -fno-rtti  -fno-lto  esp-idf/hal/libhal.a  esp-idf/soc/libsoc.a  esp-idf/micro-ecc/libmicro-ecc.a  esp-idf/spi_flash/libspi_flash.a  esp-idf/bootloader_support/libbootloader_support.a  esp-idf/efuse/libefuse.a  esp-idf/esp_hw_support/libesp_hw_support.a  esp-idf/esp_rom/libesp_rom.a  esp-idf/log/liblog.a  esp-idf/hal/libhal.a  esp-idf/soc/libsoc.a  esp-idf/micro-ecc/libmicro-ecc.a  esp-idf/spi_flash/libspi_flash.a  esp-idf/bootloader_support/libbootloader_support.a  esp-idf/efuse/libefuse.a  esp-idf/esp_hw_support/libesp_hw_support.a  esp-idf/esp_rom/libesp_rom.a  esp-idf/log/liblog.a  -L C:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/ld  -T esp32.peripherals.ld  -u abort  -Wl,--gc-sections  -L C:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/esp32/ld  -T esp32.rom.ld  -T esp32.rom.api.ld  -T esp32.rom.libgcc.ld  -T esp32.rom.newlib-funcs.ld  -L C:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/main/ld/esp32  -T bootloader.ld  -T bootloader.rom.ld
   OBJECT_DIR = CMakeFiles\bootloader.elf.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -142,7 +142,7 @@ build uf2: phony CMakeFiles/uf2 gen_project_binary
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -154,7 +154,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -172,7 +172,7 @@ build CMakeFiles/_project_elf_src: phony project_elf_src_esp32.c
 # Custom command for project_elf_src_esp32.c
 
 build project_elf_src_esp32.c: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -E touch C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/project_elf_src_esp32.c"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -E touch Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/project_elf_src_esp32.c"
   DESC = Generating project_elf_src_esp32.c
   restat = 1
 
@@ -181,7 +181,7 @@ build project_elf_src_esp32.c: CUSTOM_COMMAND
 # Custom command for CMakeFiles\confserver
 
 build CMakeFiles/confserver: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/prepare_kconfig_files.py --env-file C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confserver.py --env-file C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env --kconfig C:/Users/MLON/.platformio/packages/framework-espidf/Kconfig --sdkconfig-rename C:/Users/MLON/.platformio/packages/framework-espidf/sdkconfig.rename --config C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/sdkconfig.esp32dev"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/prepare_kconfig_files.py --env-file Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confserver.py --env-file Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env --kconfig C:/Users/MLON/.platformio/packages/framework-espidf/Kconfig --sdkconfig-rename C:/Users/MLON/.platformio/packages/framework-espidf/sdkconfig.rename --config Y:/espidf-i2c_eeprom_example/sdkconfig.esp32dev"
   pool = console
 
 
@@ -203,7 +203,7 @@ build CMakeFiles/app: phony || _project_elf_src bootloader.elf esp-idf/bootloade
 # Custom command for CMakeFiles\menuconfig
 
 build CMakeFiles/menuconfig: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/prepare_kconfig_files.py --env-file C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confgen.py --kconfig C:/Users/MLON/.platformio/packages/framework-espidf/Kconfig --sdkconfig-rename C:/Users/MLON/.platformio/packages/framework-espidf/sdkconfig.rename --config C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/sdkconfig.esp32dev --env-file C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --dont-write-deprecated --output config C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/sdkconfig.esp32dev && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/check_term.py && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -E env COMPONENT_KCONFIGS_SOURCE_FILE=C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/kconfigs_projbuild.in IDF_CMAKE=y KCONFIG_CONFIG=C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/sdkconfig.esp32dev IDF_TARGET=esp32 IDF_ENV_FPGA= C:/Users/MLON/.platformio/penv/Scripts/python.exe -m menuconfig C:/Users/MLON/.platformio/packages/framework-espidf/Kconfig && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confgen.py --kconfig C:/Users/MLON/.platformio/packages/framework-espidf/Kconfig --sdkconfig-rename C:/Users/MLON/.platformio/packages/framework-espidf/sdkconfig.rename --config C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/sdkconfig.esp32dev --env-file C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --output config C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/sdkconfig.esp32dev"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/prepare_kconfig_files.py --env-file Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confgen.py --kconfig C:/Users/MLON/.platformio/packages/framework-espidf/Kconfig --sdkconfig-rename C:/Users/MLON/.platformio/packages/framework-espidf/sdkconfig.rename --config Y:/espidf-i2c_eeprom_example/sdkconfig.esp32dev --env-file Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --dont-write-deprecated --output config Y:/espidf-i2c_eeprom_example/sdkconfig.esp32dev && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/check_term.py && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -E env COMPONENT_KCONFIGS_SOURCE_FILE=Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/kconfigs.in COMPONENT_KCONFIGS_PROJBUILD_SOURCE_FILE=Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/kconfigs_projbuild.in IDF_CMAKE=y KCONFIG_CONFIG=Y:/espidf-i2c_eeprom_example/sdkconfig.esp32dev IDF_TARGET=esp32 IDF_ENV_FPGA= C:/Users/MLON/.platformio/penv/Scripts/python.exe -m menuconfig C:/Users/MLON/.platformio/packages/framework-espidf/Kconfig && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confgen.py --kconfig C:/Users/MLON/.platformio/packages/framework-espidf/Kconfig --sdkconfig-rename C:/Users/MLON/.platformio/packages/framework-espidf/sdkconfig.rename --config Y:/espidf-i2c_eeprom_example/sdkconfig.esp32dev --env-file Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/config.env --env IDF_TARGET=esp32 --env IDF_ENV_FPGA= --output config Y:/espidf-i2c_eeprom_example/sdkconfig.esp32dev"
   pool = console
 
 
@@ -217,7 +217,7 @@ build CMakeFiles/gen_project_binary: phony .bin_timestamp || _project_elf_src bo
 # Custom command for .bin_timestamp
 
 build .bin_timestamp: CUSTOM_COMMAND bootloader.elf || _project_elf_src bootloader.elf esp-idf/bootloader_support/libbootloader_support.a esp-idf/efuse/libefuse.a esp-idf/esp_hw_support/libesp_hw_support.a esp-idf/esp_rom/libesp_rom.a esp-idf/hal/libhal.a esp-idf/log/liblog.a esp-idf/main/libmain.a esp-idf/micro-ecc/libmicro-ecc.a esp-idf/soc/libsoc.a esp-idf/spi_flash/libspi_flash.a
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB -o C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.bin C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.elf && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -E echo "Generated C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.bin" && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -E md5sum C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.bin > C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/.bin_timestamp"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/esptool/esptool.py --chip esp32 elf2image --flash_mode dio --flash_freq 40m --flash_size 2MB -o Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.bin Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.elf && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -E echo "Generated Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.bin" && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -E md5sum Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.bin > Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/.bin_timestamp"
   DESC = Generating binary image from built executable
   restat = 1
 
@@ -226,7 +226,7 @@ build .bin_timestamp: CUSTOM_COMMAND bootloader.elf || _project_elf_src bootload
 # Custom command for CMakeFiles\monitor
 
 build CMakeFiles/monitor: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\.platformio\packages\framework-espidf\components\esptool_py && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -D IDF_PATH="C:/Users/MLON/.platformio/packages/framework-espidf" -D SERIAL_TOOL="C:/Users/MLON/.platformio/packages/framework-espidf/tools/idf_monitor.py" -D SERIAL_TOOL_ARGS="C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.elf" -D WORKING_DIRECTORY="C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader" -P run_serial_tool.cmake"
+  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\.platformio\packages\framework-espidf\components\esptool_py && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -D IDF_PATH="C:/Users/MLON/.platformio/packages/framework-espidf" -D SERIAL_TOOL="C:/Users/MLON/.platformio/packages/framework-espidf/tools/idf_monitor.py" -D SERIAL_TOOL_ARGS="Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.elf" -D WORKING_DIRECTORY="Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader" -P run_serial_tool.cmake"
   pool = console
 
 
@@ -234,28 +234,28 @@ build CMakeFiles/monitor: CUSTOM_COMMAND
 # Custom command for CMakeFiles\size
 
 build CMakeFiles/size: CUSTOM_COMMAND bootloader.map
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/idf_size.py C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.map"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/idf_size.py Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.map"
 
 
 #############################################
 # Custom command for CMakeFiles\size-files
 
 build CMakeFiles/size-files: CUSTOM_COMMAND bootloader.map
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/idf_size.py --files C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.map"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/idf_size.py --files Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.map"
 
 
 #############################################
 # Custom command for CMakeFiles\size-components
 
 build CMakeFiles/size-components: CUSTOM_COMMAND bootloader.map
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/idf_size.py --archives C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.map"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/idf_size.py --archives Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/bootloader.map"
 
 
 #############################################
 # Custom command for CMakeFiles\uf2-app
 
 build CMakeFiles/uf2-app: CUSTOM_COMMAND || _project_elf_src bootloader.elf esp-idf/bootloader_support/libbootloader_support.a esp-idf/efuse/libefuse.a esp-idf/esp_hw_support/libesp_hw_support.a esp-idf/esp_rom/libesp_rom.a esp-idf/hal/libhal.a esp-idf/log/liblog.a esp-idf/main/libmain.a esp-idf/micro-ecc/libmicro-ecc.a esp-idf/soc/libsoc.a esp-idf/spi_flash/libspi_flash.a gen_project_binary
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/mkuf2.py write -o C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/uf2-app.bin --json C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/flasher_args.json --chip-id 0x1c5f21b0 --bin app"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/mkuf2.py write -o Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/uf2-app.bin --json Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/flasher_args.json --chip-id 0x1c5f21b0 --bin app"
   pool = console
 
 
@@ -263,7 +263,7 @@ build CMakeFiles/uf2-app: CUSTOM_COMMAND || _project_elf_src bootloader.elf esp-
 # Custom command for CMakeFiles\uf2
 
 build CMakeFiles/uf2: CUSTOM_COMMAND C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/bootloader || _project_elf_src bootloader.elf esp-idf/bootloader_support/libbootloader_support.a esp-idf/efuse/libefuse.a esp-idf/esp_hw_support/libesp_hw_support.a esp-idf/esp_rom/libesp_rom.a esp-idf/hal/libhal.a esp-idf/log/liblog.a esp-idf/main/libmain.a esp-idf/micro-ecc/libmicro-ecc.a esp-idf/soc/libsoc.a esp-idf/spi_flash/libspi_flash.a gen_project_binary
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/mkuf2.py write -o C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/uf2.bin --json C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/flasher_args.json --chip-id 0x1c5f21b0"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/tools/mkuf2.py write -o Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/uf2.bin --json Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/flasher_args.json --chip-id 0x1c5f21b0"
   pool = console
 
 # =============================================================================
@@ -276,7 +276,7 @@ build CMakeFiles/uf2: CUSTOM_COMMAND C$:/Users/MLON/.platformio/packages/framewo
 # Utility command for edit_cache
 
 build esp-idf/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -288,7 +288,7 @@ build esp-idf/edit_cache: phony esp-idf/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build esp-idf/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -305,7 +305,7 @@ build esp-idf/rebuild_cache: phony esp-idf/CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build esp-idf/xtensa/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\xtensa && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\xtensa && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -317,7 +317,7 @@ build esp-idf/xtensa/edit_cache: phony esp-idf/xtensa/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build esp-idf/xtensa/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\xtensa && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\xtensa && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -334,7 +334,7 @@ build esp-idf/xtensa/rebuild_cache: phony esp-idf/xtensa/CMakeFiles/rebuild_cach
 # Utility command for edit_cache
 
 build esp-idf/esp32/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -346,7 +346,7 @@ build esp-idf/esp32/edit_cache: phony esp-idf/esp32/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build esp-idf/esp32/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -363,7 +363,7 @@ build esp-idf/esp32/rebuild_cache: phony esp-idf/esp32/CMakeFiles/rebuild_cache.
 # Utility command for edit_cache
 
 build esp-idf/newlib/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\newlib && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\newlib && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -375,7 +375,7 @@ build esp-idf/newlib/edit_cache: phony esp-idf/newlib/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build esp-idf/newlib/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\newlib && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\newlib && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -436,7 +436,7 @@ build esp-idf/hal/libhal.a: C_STATIC_LIBRARY_LINKER____idf_hal esp-idf/hal/CMake
 # Utility command for edit_cache
 
 build esp-idf/hal/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\hal && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\hal && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -448,7 +448,7 @@ build esp-idf/hal/edit_cache: phony esp-idf/hal/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build esp-idf/hal/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\hal && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\hal && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -680,7 +680,7 @@ build esp-idf/soc/libsoc.a: C_STATIC_LIBRARY_LINKER____idf_soc esp-idf/soc/CMake
 # Utility command for edit_cache
 
 build esp-idf/soc/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\soc && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\soc && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -692,7 +692,7 @@ build esp-idf/soc/edit_cache: phony esp-idf/soc/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build esp-idf/soc/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\soc && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\soc && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -709,7 +709,7 @@ build esp-idf/soc/rebuild_cache: phony esp-idf/soc/CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build esp-idf/soc/esp32/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\soc\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\soc\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -721,7 +721,7 @@ build esp-idf/soc/esp32/edit_cache: phony esp-idf/soc/esp32/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build esp-idf/soc/esp32/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\soc\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\soc\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -773,7 +773,7 @@ build esp-idf/micro-ecc/libmicro-ecc.a: C_STATIC_LIBRARY_LINKER____idf_micro-ecc
 # Utility command for edit_cache
 
 build esp-idf/micro-ecc/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\micro-ecc && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\micro-ecc && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -785,7 +785,7 @@ build esp-idf/micro-ecc/edit_cache: phony esp-idf/micro-ecc/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build esp-idf/micro-ecc/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\micro-ecc && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\micro-ecc && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -837,7 +837,7 @@ build esp-idf/spi_flash/libspi_flash.a: C_STATIC_LIBRARY_LINKER____idf_spi_flash
 # Utility command for edit_cache
 
 build esp-idf/spi_flash/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\spi_flash && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\spi_flash && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -849,7 +849,7 @@ build esp-idf/spi_flash/edit_cache: phony esp-idf/spi_flash/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build esp-idf/spi_flash/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\spi_flash && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\spi_flash && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1108,7 +1108,7 @@ build esp-idf/bootloader_support/libbootloader_support.a: C_STATIC_LIBRARY_LINKE
 # Utility command for edit_cache
 
 build esp-idf/bootloader_support/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\bootloader_support && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\bootloader_support && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1120,7 +1120,7 @@ build esp-idf/bootloader_support/edit_cache: phony esp-idf/bootloader_support/CM
 # Utility command for rebuild_cache
 
 build esp-idf/bootloader_support/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\bootloader_support && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\bootloader_support && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1137,7 +1137,7 @@ build esp-idf/bootloader_support/rebuild_cache: phony esp-idf/bootloader_support
 # Utility command for rebuild_cache
 
 build esp-idf/efuse/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1262,7 +1262,7 @@ build esp-idf/efuse/show_efuse_table: phony esp-idf/efuse/CMakeFiles/show_efuse_
 # Utility command for edit_cache
 
 build esp-idf/efuse/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1274,21 +1274,21 @@ build esp-idf/efuse/edit_cache: phony esp-idf/efuse/CMakeFiles/edit_cache.util
 # Custom command for esp-idf\efuse\CMakeFiles\efuse_test_table
 
 build esp-idf/efuse/CMakeFiles/efuse_test_table: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/efuse_table_gen.py C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/test/esp_efuse_test_table.csv -t esp32 --max_blk_len 192"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/efuse_table_gen.py C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/test/esp_efuse_test_table.csv -t esp32 --max_blk_len 192"
 
 
 #############################################
 # Custom command for esp-idf\efuse\CMakeFiles\efuse_common_table
 
 build esp-idf/efuse/CMakeFiles/efuse_common_table: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/efuse_table_gen.py C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/efuse_table_gen.py C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192"
 
 
 #############################################
 # Custom command for esp-idf\efuse\CMakeFiles\show_efuse_table
 
 build esp-idf/efuse/CMakeFiles/show_efuse_table: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/efuse_table_gen.py C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\efuse && C:\Users\MLON\.platformio\penv\Scripts\python.exe C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/efuse_table_gen.py C:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/esp32/esp_efuse_table.csv -t esp32 --max_blk_len 192 --info"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -1407,7 +1407,7 @@ build esp-idf/esp_hw_support/libesp_hw_support.a: C_STATIC_LIBRARY_LINKER____idf
 # Utility command for edit_cache
 
 build esp-idf/esp_hw_support/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_hw_support && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_hw_support && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1419,7 +1419,7 @@ build esp-idf/esp_hw_support/edit_cache: phony esp-idf/esp_hw_support/CMakeFiles
 # Utility command for rebuild_cache
 
 build esp-idf/esp_hw_support/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_hw_support && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_hw_support && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1436,7 +1436,7 @@ build esp-idf/esp_hw_support/rebuild_cache: phony esp-idf/esp_hw_support/CMakeFi
 # Utility command for edit_cache
 
 build esp-idf/esp_hw_support/port/esp32/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_hw_support\port\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_hw_support\port\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1448,7 +1448,7 @@ build esp-idf/esp_hw_support/port/esp32/edit_cache: phony esp-idf/esp_hw_support
 # Utility command for rebuild_cache
 
 build esp-idf/esp_hw_support/port/esp32/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_hw_support\port\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_hw_support\port\esp32 && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1465,7 +1465,7 @@ build esp-idf/esp_hw_support/port/esp32/rebuild_cache: phony esp-idf/esp_hw_supp
 # Utility command for rebuild_cache
 
 build esp-idf/esp_common/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_common && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_common && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1477,7 +1477,7 @@ build esp-idf/esp_common/rebuild_cache: phony esp-idf/esp_common/CMakeFiles/rebu
 # Utility command for edit_cache
 
 build esp-idf/esp_common/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_common && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_common && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1556,7 +1556,7 @@ build esp-idf/esp_rom/libesp_rom.a: C_STATIC_LIBRARY_LINKER____idf_esp_rom esp-i
 # Utility command for edit_cache
 
 build esp-idf/esp_rom/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_rom && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_rom && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1568,7 +1568,7 @@ build esp-idf/esp_rom/edit_cache: phony esp-idf/esp_rom/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build esp-idf/esp_rom/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_rom && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_rom && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1638,7 +1638,7 @@ build esp-idf/log/liblog.a: C_STATIC_LIBRARY_LINKER____idf_log esp-idf/log/CMake
 # Utility command for edit_cache
 
 build esp-idf/log/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\log && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\log && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1650,7 +1650,7 @@ build esp-idf/log/edit_cache: phony esp-idf/log/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build esp-idf/log/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\log && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\log && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1667,7 +1667,7 @@ build esp-idf/log/rebuild_cache: phony esp-idf/log/CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build esp-idf/partition_table/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\partition_table && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\partition_table && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1679,7 +1679,7 @@ build esp-idf/partition_table/edit_cache: phony esp-idf/partition_table/CMakeFil
 # Utility command for rebuild_cache
 
 build esp-idf/partition_table/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\partition_table && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\partition_table && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1696,7 +1696,7 @@ build esp-idf/partition_table/rebuild_cache: phony esp-idf/partition_table/CMake
 # Utility command for edit_cache
 
 build esp-idf/bootloader/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1708,7 +1708,7 @@ build esp-idf/bootloader/edit_cache: phony esp-idf/bootloader/CMakeFiles/edit_ca
 # Utility command for rebuild_cache
 
 build esp-idf/bootloader/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\bootloader && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1725,7 +1725,7 @@ build esp-idf/bootloader/rebuild_cache: phony esp-idf/bootloader/CMakeFiles/rebu
 # Utility command for rebuild_cache
 
 build esp-idf/esp_system/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_system && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_system && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1737,7 +1737,7 @@ build esp-idf/esp_system/rebuild_cache: phony esp-idf/esp_system/CMakeFiles/rebu
 # Utility command for edit_cache
 
 build esp-idf/esp_system/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_system && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esp_system && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1754,7 +1754,7 @@ build esp-idf/esp_system/edit_cache: phony esp-idf/esp_system/CMakeFiles/edit_ca
 # Utility command for edit_cache
 
 build esp-idf/esptool_py/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esptool_py && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esptool_py && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1766,7 +1766,7 @@ build esp-idf/esptool_py/edit_cache: phony esp-idf/esptool_py/CMakeFiles/edit_ca
 # Utility command for rebuild_cache
 
 build esp-idf/esptool_py/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esptool_py && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\esptool_py && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1783,7 +1783,7 @@ build esp-idf/esptool_py/rebuild_cache: phony esp-idf/esptool_py/CMakeFiles/rebu
 # Utility command for edit_cache
 
 build esp-idf/main/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\main && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\main && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake-gui.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -1830,7 +1830,7 @@ build esp-idf/main/libmain.a: C_STATIC_LIBRARY_LINKER____idf_main esp-idf/main/C
 # Utility command for rebuild_cache
 
 build esp-idf/main/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\main && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BC:\Users\MLON\Documents\PlatformIO\Projects\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
+  COMMAND = cmd.exe /C "cd /D Y:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader\esp-idf\main && C:\Users\MLON\.platformio\packages\tool-cmake\bin\cmake.exe -SC:\Users\MLON\.platformio\packages\framework-espidf\components\bootloader\subproject -BY:\espidf-i2c_eeprom_example\.pio\build\esp32dev\bootloader"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1894,154 +1894,154 @@ build show_efuse_table: phony esp-idf/efuse/show_efuse_table
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader
 
 build all: phony app bootloader.elf esp-idf/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf
 
 build esp-idf/all: phony esp-idf/xtensa/all esp-idf/esp32/all esp-idf/newlib/all esp-idf/hal/all esp-idf/soc/all esp-idf/micro-ecc/all esp-idf/spi_flash/all esp-idf/bootloader_support/all esp-idf/efuse/all esp-idf/esp_hw_support/all esp-idf/esp_common/all esp-idf/esp_rom/all esp-idf/log/all esp-idf/partition_table/all esp-idf/bootloader/all esp-idf/esp_system/all esp-idf/esptool_py/all esp-idf/main/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/bootloader
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/bootloader
 
 build esp-idf/bootloader/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/bootloader_support
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/bootloader_support
 
 build esp-idf/bootloader_support/all: phony esp-idf/bootloader_support/libbootloader_support.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/efuse
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/efuse
 
 build esp-idf/efuse/all: phony esp-idf/efuse/libefuse.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp32
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp32
 
 build esp-idf/esp32/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_common
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_common
 
 build esp-idf/esp_common/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_hw_support
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_hw_support
 
 build esp-idf/esp_hw_support/all: phony esp-idf/esp_hw_support/libesp_hw_support.a esp-idf/esp_hw_support/port/esp32/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_hw_support/port/esp32
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_hw_support/port/esp32
 
 build esp-idf/esp_hw_support/port/esp32/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_rom
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_rom
 
 build esp-idf/esp_rom/all: phony esp-idf/esp_rom/libesp_rom.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_system
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esp_system
 
 build esp-idf/esp_system/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esptool_py
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/esptool_py
 
 build esp-idf/esptool_py/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/hal
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/hal
 
 build esp-idf/hal/all: phony esp-idf/hal/libhal.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/log
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/log
 
 build esp-idf/log/all: phony esp-idf/log/liblog.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/main
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/main
 
 build esp-idf/main/all: phony esp-idf/main/libmain.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/micro-ecc
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/micro-ecc
 
 build esp-idf/micro-ecc/all: phony esp-idf/micro-ecc/libmicro-ecc.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/newlib
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/newlib
 
 build esp-idf/newlib/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/partition_table
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/partition_table
 
 build esp-idf/partition_table/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/soc
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/soc
 
 build esp-idf/soc/all: phony esp-idf/soc/libsoc.a esp-idf/soc/esp32/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/soc/esp32
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/soc/esp32
 
 build esp-idf/soc/esp32/all: phony
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/spi_flash
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/spi_flash
 
 build esp-idf/spi_flash/all: phony esp-idf/spi_flash/libspi_flash.a
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/xtensa
+# Folder: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader/esp-idf/xtensa
 
 build esp-idf/xtensa/all: phony
 
@@ -2057,14 +2057,14 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/MLON/.platformio/packages/framework-espidf/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/components/micro-ecc/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/main/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader_support/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/esp32/sources.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_common/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_hw_support/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_hw_support/port/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_system/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/hal/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/log/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/newlib/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/partition_table/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/partition_table/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/soc/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/soc/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/spi_flash/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/xtensa/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/build.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/component.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/crosstool_version_check.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/dfu.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/git_submodules.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/idf.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/kconfig.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/ldgen.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/project.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/project_description.json.in C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/targets.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/third_party/GetGitRevisionDescription.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/toolchain-esp32.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/uf2.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/utilities.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/version.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confgen.py C$:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/config.env.in C$:/Users/MLON/.platformio/packages/framework-espidf/version.txt C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeASMCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeASMInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineSystem.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeFindBinUtils.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeGenericSystem.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeNinjaFindMake.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystem.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestASMCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCXXCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCompilerCommon.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-ASM.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-C.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/ExternalProject.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindGit.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindPackageMessage.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Internal/FeatureTesting.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Platform/Generic.cmake C$:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/sdkconfig.esp32dev CMakeCache.txt CMakeFiles/3.16.4/CMakeASMCompiler.cmake CMakeFiles/3.16.4/CMakeCCompiler.cmake CMakeFiles/3.16.4/CMakeCXXCompiler.cmake CMakeFiles/3.16.4/CMakeSystem.cmake config/sdkconfig.cmake config/sdkconfig.h
+build build.ninja: RERUN_CMAKE | C$:/Users/MLON/.platformio/packages/framework-espidf/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/components/micro-ecc/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/main/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader_support/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/esp32/sources.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_common/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_hw_support/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_hw_support/port/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_system/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/hal/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/log/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/newlib/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/partition_table/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/partition_table/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/soc/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/soc/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/spi_flash/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/xtensa/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/build.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/component.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/crosstool_version_check.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/dfu.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/git_submodules.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/idf.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/kconfig.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/ldgen.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/project.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/project_description.json.in C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/targets.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/third_party/GetGitRevisionDescription.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/toolchain-esp32.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/uf2.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/utilities.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/version.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confgen.py C$:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/config.env.in C$:/Users/MLON/.platformio/packages/framework-espidf/version.txt C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeASMCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeASMInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineSystem.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeFindBinUtils.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeGenericSystem.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeNinjaFindMake.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystem.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestASMCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCXXCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCompilerCommon.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-ASM.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-C.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/ExternalProject.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindGit.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindPackageMessage.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Internal/FeatureTesting.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.16.4/CMakeASMCompiler.cmake CMakeFiles/3.16.4/CMakeCCompiler.cmake CMakeFiles/3.16.4/CMakeCXXCompiler.cmake CMakeFiles/3.16.4/CMakeSystem.cmake Y$:/espidf-i2c_eeprom_example/sdkconfig.esp32dev config/sdkconfig.cmake config/sdkconfig.h
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/MLON/.platformio/packages/framework-espidf/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/components/micro-ecc/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/main/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader_support/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/esp32/sources.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_common/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_hw_support/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_hw_support/port/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_system/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/hal/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/log/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/newlib/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/partition_table/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/partition_table/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/soc/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/soc/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/spi_flash/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/xtensa/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/build.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/component.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/crosstool_version_check.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/dfu.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/git_submodules.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/idf.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/kconfig.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/ldgen.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/project.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/project_description.json.in C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/targets.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/third_party/GetGitRevisionDescription.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/toolchain-esp32.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/uf2.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/utilities.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/version.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confgen.py C$:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/config.env.in C$:/Users/MLON/.platformio/packages/framework-espidf/version.txt C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeASMCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeASMInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineSystem.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeFindBinUtils.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeGenericSystem.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeNinjaFindMake.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystem.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestASMCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCXXCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCompilerCommon.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-ASM.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-C.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/ExternalProject.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindGit.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindPackageMessage.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Internal/FeatureTesting.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Platform/Generic.cmake C$:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/sdkconfig.esp32dev CMakeCache.txt CMakeFiles/3.16.4/CMakeASMCompiler.cmake CMakeFiles/3.16.4/CMakeCCompiler.cmake CMakeFiles/3.16.4/CMakeCXXCompiler.cmake CMakeFiles/3.16.4/CMakeSystem.cmake config/sdkconfig.cmake config/sdkconfig.h: phony
+build C$:/Users/MLON/.platformio/packages/framework-espidf/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/components/micro-ecc/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject/main/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader_support/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/efuse/esp32/sources.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp32/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_common/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_hw_support/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_hw_support/port/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_rom/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esp_system/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/esptool_py/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/hal/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/log/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/newlib/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/partition_table/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/partition_table/project_include.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/components/soc/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/soc/esp32/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/spi_flash/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/components/xtensa/CMakeLists.txt C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/build.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/component.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/crosstool_version_check.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/dfu.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/git_submodules.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/idf.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/kconfig.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/ldgen.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/project.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/project_description.json.in C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/targets.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/third_party/GetGitRevisionDescription.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/toolchain-esp32.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/uf2.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/utilities.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/cmake/version.cmake C$:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/confgen.py C$:/Users/MLON/.platformio/packages/framework-espidf/tools/kconfig_new/config.env.in C$:/Users/MLON/.platformio/packages/framework-espidf/version.txt C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeASMCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeASMInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCCompilerABI.c C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompiler.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCXXInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeCompilerIdDetection.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineASMCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineCompilerId.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeDetermineSystem.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeFindBinUtils.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeGenericSystem.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeInitializeConfigs.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeLanguageInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeNinjaFindMake.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystem.cmake.in C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestASMCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCXXCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/CMakeTestCompilerCommon.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-ASM.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-C.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-CXX.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/GNU.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/ExternalProject.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindGit.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/FindPackageMessage.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Internal/CMakeCheckCompilerFlag.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Internal/FeatureTesting.cmake C$:/Users/MLON/.platformio/packages/tool-cmake/share/cmake-3.16/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/3.16.4/CMakeASMCompiler.cmake CMakeFiles/3.16.4/CMakeCCompiler.cmake CMakeFiles/3.16.4/CMakeCXXCompiler.cmake CMakeFiles/3.16.4/CMakeSystem.cmake Y$:/espidf-i2c_eeprom_example/sdkconfig.esp32dev config/sdkconfig.cmake config/sdkconfig.h: phony
 
 
 #############################################

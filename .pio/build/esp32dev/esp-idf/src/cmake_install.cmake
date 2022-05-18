@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/src
+# Install script for directory: Y:/espidf-i2c_eeprom_example/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

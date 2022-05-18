@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Users/MLON/.platformio/packages/framework-espidf/components/bootloader/subproject",
-    "build_dir":          "C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader",
-    "config_file":        "C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/sdkconfig.esp32dev",
+    "build_dir":          "Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/bootloader",
+    "config_file":        "Y:/espidf-i2c_eeprom_example/sdkconfig.esp32dev",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",

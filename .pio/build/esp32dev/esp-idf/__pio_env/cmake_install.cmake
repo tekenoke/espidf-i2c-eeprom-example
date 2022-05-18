@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/MLON/Documents/PlatformIO/Projects/espidf-i2c_eeprom_example/.pio/build/esp32dev/__pio_env
+# Install script for directory: Y:/espidf-i2c_eeprom_example/.pio/build/esp32dev/__pio_env
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
